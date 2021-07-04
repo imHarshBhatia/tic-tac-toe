@@ -10,6 +10,13 @@ gridElems.forEach(elem => {
   let cell = document.getElementById(`${elem}`);
   cell.onclick = function() {
     cell.innerHTML = currentPlayer;
+    if (currentPlayer === 'X') {
+      cell.classList.add('x');
+      cell.classList.remove('o');
+    } else {
+      cell.classList.add('o');
+      cell.classList.remove('x');
+    }
     changePlayer();
   }
 });

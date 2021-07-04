@@ -3,7 +3,6 @@
 * {
   background-color: #d1d1d1;
   font-family: 'Sirin Stencil';
-  color: blue;
 }
 
 .grid-container {
@@ -27,4 +26,12 @@
   align-items: center;
   font-weight: 800;
   font-size: 36px;
+}
+
+.x {
+  color: #1565c0;
+}
+
+.o {
+  color: #fbc02d;
 }
