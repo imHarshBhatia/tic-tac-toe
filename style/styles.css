@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Sirin+Stencil&display=swap');
+
+* {
+  background-color: #d1d1d1;
+  font-family: 'Sirin Stencil';
+  color: blue;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  /* grid-template-rows: 33% 33% 33%; */
+  column-gap: 2px;
+  row-gap: 2px;
+  /* justify-items: center; */
+  /* align-items: center; */
+  height: 400px;
+  width: 400px;
+
+}
+
+.grid-item {
+  background-color: #fff;
+  /* Used to align each item in a grid in the center  and maintain the widht and height of each element as well */
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  font-weight: 800;
+  font-size: 36px;
+}
