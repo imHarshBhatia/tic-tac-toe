@@ -26,6 +26,7 @@
   align-items: center;
   font-weight: 800;
   font-size: 36px;
+  cursor: pointer !important;
 }
 
 .x {
