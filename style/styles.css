@@ -8,14 +8,10 @@
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  /* grid-template-rows: 33% 33% 33%; */
   column-gap: 2px;
   row-gap: 2px;
-  /* justify-items: center; */
-  /* align-items: center; */
   height: 400px;
   width: 400px;
-
 }
 
 .grid-item {
@@ -25,8 +21,9 @@
   justify-content: center;
   align-items: center;
   font-weight: 800;
-  font-size: 36px;
+  font-size: 28px;
   cursor: pointer !important;
+  height: calc(396px / 3);
 }
 
 .x {
